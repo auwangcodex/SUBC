@@ -30,7 +30,7 @@ const ResearchModal: React.FC<ResearchModalProps> = ({ isOpen, onClose }) => {
       <div className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[80vh] overflow-y-auto">
         <div className="sticky top-0 bg-white p-6 border-b border-slate-100 flex justify-between items-center">
           <div>
-            <h3 className="text-xl font-serif font-bold text-slate-900">Why DiasporaBridge?</h3>
+            <h3 className="text-xl font-serif font-bold text-slate-900">Why TalentBridge?</h3>
             <p className="text-sm text-slate-500">Market Research & Insights</p>
           </div>
           <button onClick={onClose} className="text-slate-400 hover:text-slate-600">
@@ -59,7 +59,7 @@ const ResearchModal: React.FC<ResearchModalProps> = ({ isOpen, onClose }) => {
               </div>
 
               {research.map((item, index) => (
-                <div key={index} className="border-l-4 border-crimson-900 pl-4">
+                <div key={index} className="border-l-4 border-ink pl-4">
                   <h4 className="text-lg font-semibold text-slate-900 mb-2">{item.title}</h4>
                   <p className="text-slate-600 leading-relaxed">{item.description}</p>
                 </div>
